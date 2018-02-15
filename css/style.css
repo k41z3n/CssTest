@@ -88,6 +88,7 @@ header {
 }
 
 #page #ImagenPrincipal {
+  text-align: center;
   width: 100%;
   background: #82c3a6;
   border: 1px solid #82c3a6;
@@ -102,6 +103,9 @@ header {
   padding: 2rem;
 }
 
+#paisaje{
+  transition: all .5s;
+}
 #paisaje:hover {
   -webkit-transform: rotate(10deg);
   -ms-transform: rotate(10deg);
@@ -111,6 +115,9 @@ header {
   border: 2px solid #82C3A6;
 }
 
+#retratos{
+  transition: all .5s;
+}
 #retratos:hover {
   -webkit-transform: translate(20px, -5px);
   -ms-transform: translate(20px, -5px);
@@ -203,5 +210,21 @@ header {
   }
   100% {
     margin-top: -0%;
+  }
+}
+
+
+@media (max-width: 900px) {
+  header, 
+  #page, 
+  footer{
+    width: 100%
+  }
+  header .titulo, 
+  header .menu, 
+  #page > article, 
+  footer > div{
+    width: 100%;
+    text-align: center;
   }
 }
