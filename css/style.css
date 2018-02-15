@@ -24,9 +24,7 @@ header {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;
   box-sizing: border-box;
   background: #5b7989;
   width: 900px;
@@ -82,16 +80,16 @@ header {
 #page #ImagenPrincipal {
   text-align: center;
   width: 100%;
-  background: #82c3a6;
-  border: 1px solid #82c3a6;
+  background: #82c3a6 ;
+  border: 1px solid #82c3a6 ;
 }
 
 #ImagenPaisaje,
 #ImagenRetrato{
   text-align: center;
   width: 50% !important;
-  background: #82c3a6;
-  border: 1px solid #82c3a6;
+  background: #82c3a6 ;
+  border: 1px solid #82c3a6 ;
 }
 
 #page > article {
@@ -111,9 +109,9 @@ header {
   -webkit-transform: rotate(10deg);
   -ms-transform: rotate(10deg);
   transform: rotate(10deg);
-  -webkit-box-shadow: 2px 2px 2px #82C3A6;
-  box-shadow: 2px 2px 2px #82C3A6;
-  border: 2px solid #82C3A6;
+  -webkit-box-shadow: 2px 2px 2px #82c3a6 ;
+  box-shadow: 2px 2px 2px #82c3a6 ;
+  border: 2px solid #82c3a6 ;
 }
 
 #retratos{
@@ -123,9 +121,9 @@ header {
   -webkit-transform: translate(20px, -5px);
   -ms-transform: translate(20px, -5px);
   transform: translate(20px, -5px);
-  -webkit-box-shadow: 2px 2px 2px #82C3A6;
-  box-shadow: 2px 2px 2px #82C3A6;
-  border: 2px solid #82C3A6;
+  -webkit-box-shadow: 2px 2px 2px #82c3a6 ;
+  box-shadow: 2px 2px 2px #82c3a6 ;
+  border: 2px solid #82c3a6 ;
 }
 
 /*.galeria > article {
@@ -158,9 +156,7 @@ footer {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;
   box-sizing: border-box;
 }
 
