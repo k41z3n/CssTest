@@ -9,6 +9,10 @@ img {
   -webkit-box-shadow: 2px 2px 2px #02010A;
   box-shadow: 2px 2px 2px #02010A;
 }
+a{
+  color: #000;
+  text-decoration:none;
+}
 
 ul {
   padding: 0;
@@ -65,7 +69,7 @@ header {
   width: 50%;
 }
 
-#page {
+#contenido {
   width: 900px;
   margin: 0 auto;
   display: -webkit-box;
@@ -77,7 +81,7 @@ header {
   box-sizing: border-box;
 }
 
-#page #ImagenPrincipal {
+#contenido #ImagenPrincipal {
   text-align: center;
   width: 100%;
   background: #82c3a6 ;
@@ -87,12 +91,13 @@ header {
 #ImagenPaisaje,
 #ImagenRetrato{
   text-align: center;
+  font-size: 20px;
   width: 50% !important;
   background: #82c3a6 ;
   border: 1px solid #82c3a6 ;
 }
 
-#page > article {
+#contenido > article {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background: #d5c75f;
@@ -126,10 +131,7 @@ header {
   border: 2px solid #82c3a6 ;
 }
 
-/*.galeria > article {
-  width: calc(100%/3);
-}
-*/
+
 .galeria > article:nth-child(1) img {
   -webkit-filter: blur(10px);
   filter: blur(10px);
@@ -210,7 +212,7 @@ header {
 
 @media (max-width: 900px) {
   header, 
-  #page, 
+  #contenido, 
   footer{
     width: 100%
   }
@@ -220,7 +222,7 @@ header {
   }
   header .titulo, 
   header .menu, 
-  #page > article, 
+  #contenido > article, 
   .galeria > article,
   footer > div{
     width: 100%;
